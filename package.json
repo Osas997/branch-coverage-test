@@ -1,0 +1,13 @@
+{
+  "name": "branch-coverage-example",
+  "version": "1.0.0",
+  "description": "Branch coverage testing example with NYC",
+  "main": "mathOperations.js",
+  "scripts": {
+    "test": "npx nyc jest --coverage"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "nyc": "^17.1.0"
+  }
+}
